@@ -1,0 +1,130 @@
+/* styles that affect the entire page */
+:root {
+    --primary-color: rgba(143, 0, 255, 0.25);
+    --secondary-color: rgba(128, 132, 135, .6);
+    --tertiary-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+/* styles that affect the header */
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: url(../images/RJMQ7022.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--tertiary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header a {
+      text-decoration: none;
+    color: var(--tertiary-color);
+  }
+
+  header nav {
+      margin: 7px 0;
+  }
+
+  header nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      list-style: none;
+  }
+
+  header nav ul li a {
+      padding: 10px 15px;
+      font-weight: lighter;
+      font-size: 1.5vw;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header nav ul li a:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+.picture {
+    background-image: url(../images/RJMQ7022.jpg);
+    background-position: 80%;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: auto;
+    flex-wrap: wrap;
+    background-size: cover;
+}
+
+.picture article {
+    padding: 200px 400px 150px 400px;
+}
+
+.picture article {
+    color:var(--tertiary-color);
+}
+
+.picture article p {
+    color: var(--tertiary-color);
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    border: var(--primary-color) ridge 10px;
+}
+
+.titl {
+    color: var(--tertiary-color);
+}
+
+.intro p {
+    padding: 0 150px 0 150px;
+    color: var(--tertiary-color)
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 400px;
+    align-items: center;
+    border: var(--primary-color) ridge 10px;
+}
+
+.img-run img {
+    width: 300px;
+    height: 200px;
+}
+
+.img-run:hover {
+    border: var(--primary-color) solid 10px;
+}
