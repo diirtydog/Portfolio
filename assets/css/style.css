@@ -62,6 +62,13 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
+/* styles that affect the footer*/
+footer h2 {
+    color: var(--tertiary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
 /* styles that affect the picture section */
 .picture {
     background-image: url(../images/RJMQ7022.jpg);
@@ -214,24 +221,12 @@ header nav ul li a:hover {
     }
     .project {
         display: flex;
-        width: 100%;
         flex-direction: column;
         align-content: center;
-        flex: 2;
         justify-content: space-around;
     }
     .project>*:first-child {
         align-self: center;
         padding: 0;
-        flex-shrink: 1;
-    }
-    .img-ran {
-        border-radius: 15px;
-        flex: 2 20%;
-        min-width: 0;
-        flex-shrink: 1;
-    }
-    .img-run {
-        flex-shrink: 2;
     }
 }
