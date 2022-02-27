@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #f7f2f2b7;
+    --secondary-color: rgba(38, 39, 41, 0.6);
+    --tertiary-color: white;
+}
+
+.name, .section-title {
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    color: var(--tertiary-color);
+}
+
+.contact {
+    text-align: center;
+    margin: 20px;
+}
+
+.job-title {
+    text-align: center;
+    margin: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: var(--secondary-color);
+}
+
+.skills {
+    text-align: center;
+    color: var(--primary-color);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
